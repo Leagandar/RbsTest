@@ -1,0 +1,7 @@
+:root {
+  --primary-color: #6497b1;
+}
+
+.header {
+  display: flex;
+}

@@ -1,0 +1,10 @@
+.warningText {
+  color: #9f6000;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}

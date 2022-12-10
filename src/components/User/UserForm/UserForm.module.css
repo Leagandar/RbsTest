@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.infoContainer {
+  margin-bottom: 1.4rem;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}

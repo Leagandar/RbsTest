@@ -1,0 +1,27 @@
+.input {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  height: 2rem;
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  align-self: center;
+  flex: 3;
+  min-width: 4rem;
+}
+
+.input input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+  flex: 10;
+  overflow: hidden;
+}
+
+input.inputInvalid {
+  border: 1px solid #d10000;
+}

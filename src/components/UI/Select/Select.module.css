@@ -1,0 +1,28 @@
+.selectWrapper {
+  display: flex;
+  flex: 1;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  height: 2rem;
+}
+
+.selectWrapper label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  align-self: center;
+  flex: 3;
+}
+
+.selectWrapper select {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+  flex: 10;
+  overflow: hidden;
+  min-width: 7rem;
+}
+
+select.invalidSelect {
+  border: 1px solid #d10000;
+}

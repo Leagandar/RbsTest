@@ -1,0 +1,29 @@
+.tableWrapper {
+  overflow: auto;
+  max-height: 75vh;
+  margin-bottom: 0.8rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: var(--primary-color);
+}
+
+.tableHead {
+  background-color: #e6e6ea;
+}
+
+th {
+  padding: 4px;
+}
+
+td {
+  padding: 2px;
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .tableWrapper {
+    max-height: 60vh;
+  }
+}

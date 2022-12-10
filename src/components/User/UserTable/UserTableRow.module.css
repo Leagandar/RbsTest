@@ -1,0 +1,12 @@
+.controls {
+  width: 80px;
+  padding: 4px 6px;
+}
+
+tr.activeRow {
+  background-color: khaki;
+}
+
+tr.disabledRow {
+  opacity: 0.4;
+}
